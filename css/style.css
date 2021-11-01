@@ -1,0 +1,72 @@
+body,html {
+    padding: 0;
+    margin: 0;
+}
+
+
+html{
+    height: 100%;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+body {
+    /*margin-top: -8px;*/
+    height: 100%;
+}
+
+#app {
+    height: 100%;
+    width: 100%;
+}
+
+/*@font-face{*/
+/*    font-family: 'pingfang';*/
+/*    src : url('../assets/PingFang-SC-Regular.eot');*/
+/*}*/
+/** {*/
+/*    font-family: pingfang, "Segoe UI Emoji";*/
+/*}*/
+
+.my_btn {
+    min-width: 50px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: 1px solid rgba(220, 8, 22, 0.65) !important;
+    font-size: 14px;
+    color: #EA1013;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 5px 11px 5px 15px;
+    display: inline-block;
+    height: 32px;
+    line-height: 20px;
+    transition: all 0.1s;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.my_btn:hover {
+    color: #fff;
+    background-color: #E80F13;
+}
+
+.my_btn:active {
+    color: #fff;
+    background-color: #E80F13;
+}
+
+.my_btn_primary {
+    background-color: #E80F13;
+    color: #fff;
+}
+
+.my_btn_primary:hover {
+    background-color: rgba(220, 8, 22, 0.7);
+    color: #fff;
+}
+
+.my_btn_primary:active {
+    background-color: rgb(201, 10, 23);
+    color: #fff;
+}
